@@ -57,7 +57,7 @@ namespace AccesoBaseDatos1
             this.txtNoControl.Location = new System.Drawing.Point(129, 36);
             this.txtNoControl.MaxLength = 8;
             this.txtNoControl.Name = "txtNoControl";
-            this.txtNoControl.Size = new System.Drawing.Size(139, 26);
+            this.txtNoControl.Size = new System.Drawing.Size(139, 30);
             this.txtNoControl.TabIndex = 2;
             // 
             // txtNombre
@@ -66,7 +66,7 @@ namespace AccesoBaseDatos1
             this.txtNombre.Location = new System.Drawing.Point(129, 73);
             this.txtNombre.MaxLength = 50;
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(415, 26);
+            this.txtNombre.Size = new System.Drawing.Size(415, 30);
             this.txtNombre.TabIndex = 3;
             // 
             // txtCarrera
@@ -75,7 +75,7 @@ namespace AccesoBaseDatos1
             this.txtCarrera.Location = new System.Drawing.Point(129, 110);
             this.txtCarrera.MaxLength = 2;
             this.txtCarrera.Name = "txtCarrera";
-            this.txtCarrera.Size = new System.Drawing.Size(46, 26);
+            this.txtCarrera.Size = new System.Drawing.Size(46, 30);
             this.txtCarrera.TabIndex = 4;
             // 
             // label1
@@ -84,7 +84,7 @@ namespace AccesoBaseDatos1
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(32, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 20);
+            this.label1.Size = new System.Drawing.Size(116, 25);
             this.label1.TabIndex = 5;
             this.label1.Text = "No Control :";
             // 
@@ -94,7 +94,7 @@ namespace AccesoBaseDatos1
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(48, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 20);
+            this.label2.Size = new System.Drawing.Size(92, 25);
             this.label2.TabIndex = 6;
             this.label2.Text = "Nombre :";
             // 
@@ -135,6 +135,7 @@ namespace AccesoBaseDatos1
             this.btnActualizar.TabIndex = 11;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // btnBorrar
             // 
@@ -144,6 +145,7 @@ namespace AccesoBaseDatos1
             this.btnBorrar.TabIndex = 12;
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // btnBuscar
             // 
@@ -153,6 +155,7 @@ namespace AccesoBaseDatos1
             this.btnBuscar.TabIndex = 13;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnRefrescar
             // 
@@ -170,7 +173,7 @@ namespace AccesoBaseDatos1
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(51, 113);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 20);
+            this.label4.Size = new System.Drawing.Size(89, 25);
             this.label4.TabIndex = 15;
             this.label4.Text = "Carrera :";
             // 
@@ -192,7 +195,7 @@ namespace AccesoBaseDatos1
             this.chkMySQL.AutoSize = true;
             this.chkMySQL.Location = new System.Drawing.Point(100, 19);
             this.chkMySQL.Name = "chkMySQL";
-            this.chkMySQL.Size = new System.Drawing.Size(61, 17);
+            this.chkMySQL.Size = new System.Drawing.Size(73, 20);
             this.chkMySQL.TabIndex = 21;
             this.chkMySQL.Text = "MySQL";
             this.chkMySQL.UseVisualStyleBackColor = true;
@@ -202,7 +205,7 @@ namespace AccesoBaseDatos1
             this.chkSQLServer.AutoSize = true;
             this.chkSQLServer.Location = new System.Drawing.Point(6, 19);
             this.chkSQLServer.Name = "chkSQLServer";
-            this.chkSQLServer.Size = new System.Drawing.Size(78, 17);
+            this.chkSQLServer.Size = new System.Drawing.Size(95, 20);
             this.chkSQLServer.TabIndex = 20;
             this.chkSQLServer.Text = "SQLServer";
             this.chkSQLServer.UseVisualStyleBackColor = true;
