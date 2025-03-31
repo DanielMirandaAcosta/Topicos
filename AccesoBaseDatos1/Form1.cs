@@ -2,14 +2,13 @@
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace AccesoBaseDatos1
 {
     public partial class Form1 : Form
     {
-        private string Servidor = "DESKTOP-7JK8RJ0\\" +
-            "" +
-            "SQLEXPRESS";
+        private string Servidor = "DESKTOP-7JK8RJ0\\SQLEXPRESS";
         private string Basedatos = "master";
         private string UsuarioId = "sa";
         private string Password = "dany25";
@@ -28,6 +27,15 @@ namespace AccesoBaseDatos1
                     SqlConnection conn = new SqlConnection(strConn);
                     conn.Open();
                     SqlCommand cmd = new SqlCommand();
+                    cmd.Connection = conn;
+                    cmd.CommandText = ConsultaSQL;
+                    cmd.ExecuteNonQuery();
+                }
+                else 
+                {
+                    MySqlConnection conn = new MySqlConnection(strConn);
+                    conn.Open();
+                    MySqlCommand cmd = new MySqlCommand();
                     cmd.Connection = conn;
                     cmd.CommandText = ConsultaSQL;
                     cmd.ExecuteNonQuery();
