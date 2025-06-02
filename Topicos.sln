@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secuencial", "Secuencial\Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoBaseDatos1", "AccesoBaseDatos1\AccesoBaseDatos1.csproj", "{AB537FDF-C091-469A-8A01-8E1968B3CC24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica5", "Practica5\Practica5.csproj", "{383EF929-9E0F-C1E6-738B-650C7E2AB042}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,12 @@ Global
 		{AB537FDF-C091-469A-8A01-8E1968B3CC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB537FDF-C091-469A-8A01-8E1968B3CC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB537FDF-C091-469A-8A01-8E1968B3CC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383EF929-9E0F-C1E6-738B-650C7E2AB042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383EF929-9E0F-C1E6-738B-650C7E2AB042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383EF929-9E0F-C1E6-738B-650C7E2AB042}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{383EF929-9E0F-C1E6-738B-650C7E2AB042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383EF929-9E0F-C1E6-738B-650C7E2AB042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383EF929-9E0F-C1E6-738B-650C7E2AB042}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
